@@ -1,0 +1,316 @@
+@media (max-width: 1366px) {
+  .second-section {
+    width: 100%;
+    min-height: 75vh;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #0095a99e !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+  }
+  .resource-album-section .swiper-button-next {
+    background-image: none;
+    left: auto;
+    right: 150px;
+    outline: none;
+  }
+  .second-section {
+    width: 100%;
+    height: 45vh;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #0095a99e !important;
+  }
+  .resource-album-section .wrapper {
+    max-width: 796px;
+    text-align: center;
+    margin: 0 auto;
+    position: inherit;
+    z-index: 9999;
+  }
+  .resource-album-section .swiper-button-next {
+    left: auto;
+    right: 70px;
+  }
+  .resource-album-section .swiper-button-prev {
+    left: 20px;
+    right: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu-container {
+    display: none;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background-color: #0095a99e !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-container {
+    display: none;
+  }
+  .search {
+    display: none !important;
+  }
+  .mb-search {
+    display: block;
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  .mb-search img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .menu {
+    background: #0095a99b;
+    margin-bottom: 0px;
+    padding: 0 20px;
+    border-radius: 0px;
+  }
+  .menu .dropdown-menu {
+    margin: 0px 0;
+    border: none;
+    background: bottom;
+    color: #ffff;
+  }
+  .menu .dropdown-item {
+    color: #fff !important;
+    font-weight: 900;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+  }
+  #dropdown-product {
+    display: none !important;
+  }
+  .map-container {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  .footer-logo .line {
+    right: 0;
+    width: 75%;
+  }
+  .copy-right {
+    padding-left: 0;
+    text-align: center;
+  }
+  .about-main-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-second-section {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    padding-bottom: 50px;
+  }
+  .about-second-section .about-left-img {
+    width: 100%;
+  }
+  .about-second-section .about-right-content {
+    width: 100%;
+    margin: 20px 15px;
+  }
+  .about-third-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-fourth-section {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    padding-bottom: 0px;
+  }
+  .about-fourth-section .about-left-content {
+    width: 100%;
+    margin: 20px 15px;
+    padding: 30px 0px 0px;
+  }
+  .about-fourth-section .about-right-img {
+    width: 100%;
+  }
+  .map-container {
+    height: 45vh;
+    margin-top: 50px;
+  }
+  .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto;
+  }
+  .resource-album-section .wrapper {
+    max-width: 500px !important;
+    text-align: center;
+    margin: 0 auto;
+    position: inherit;
+    z-index: 9999;
+  }
+  .resource-album-section .swiper-button-prev {
+    background-image: none;
+    left: 50px;
+    right: auto;
+    outline: none;
+  }
+  .resource-album-section .gallery-top {
+    width: 100%;
+    height: 400px;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0px auto;
+  }
+  .menu-container {
+    display: none;
+  }
+  .footer-logo img {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 80%;
+  }
+  .footer-menu {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .main-section .swiper-container .main-swiper-content {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 13%;
+  }
+  .second-section {
+    padding-top: 50px;
+    height: 78vh;
+  }
+  .second-section .bg-title {
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+  }
+  .second-section .bg-title img {
+    width: 250%;
+  }
+  .third-section {
+    padding-top: 0px;
+  }
+  .slick-center {
+    -webkit-transform: scale(0.8) !important;
+            transform: scale(0.8) !important;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .data-section {
+    width: 100%;
+    padding-top: 100px;
+    max-height: unset;
+    overflow: hidden;
+  }
+  .about-main-section .bg-logo-title {
+    top: 20%;
+  }
+  .certificate-section .bg-title {
+    max-width: 200px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .timeline .timeline-items .timeline-item {
+    padding: 20px 10px 20px 10px;
+  }
+  .timeline .timeline-items .timeline-item h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-section {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  .contact-section .contact-tab-content {
+    margin: 50px 15px 0px 15px;
+  }
+  .contact-title {
+    margin: 50px 0px 0px !important;
+  }
+  .line {
+    height: 60px;
+  }
+  .product-section .bg-title, .products-sports-section .bg-title, .video-section .bg-title {
+    width: 200px;
+  }
+  .card-columns {
+    -webkit-column-count: 1 !important;
+            column-count: 1 !important;
+  }
+  .video-section ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+  .video-section .video-container {
+    margin-top: 0px;
+  }
+  .resource-album-section .wrapper {
+    max-width: 300px !important;
+    text-align: center;
+    margin: 0 auto;
+    position: inherit;
+    z-index: 9999;
+  }
+  .resource-album-section .swiper-button-next {
+    left: auto;
+    right: 25px;
+    z-index: 9999;
+  }
+  .resource-album-section .swiper-button-prev {
+    left: 0;
+    right: auto;
+    z-index: 9999;
+  }
+  .resource-album-section .gallery-top {
+    width: 100%;
+    height: 200px;
+    bottom: 10px;
+  }
+  .swiper-button-prev img, .swiper-button-next img {
+    width: 50px;
+  }
+  .world-section {
+    padding-bottom: 0px;
+  }
+  .area-section {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1040px !important;
+    margin: 1.75rem auto;
+  }
+}
+/*# sourceMappingURL=mediaquery.css.map */
